@@ -1,0 +1,183 @@
+/* 
+@media screen and (max-width: 576px) {
+  .ipadScreen {
+    display: block;
+    width: 100vw;
+  }
+  #img1 {
+    height: 80vh;
+    width: 100vw;
+  }
+  #img2 {
+    height: 80vh;
+    width: 100vw;
+  }
+  #img3 {
+    height: 80vh;
+    width: 100vw;
+  }
+}
+@media screen and (min-width: 576px) {
+  .ipadScreen {
+    display: block;
+    width: 100vw;
+  }
+  #img1 {
+    height: 80vh;
+    width: 100vw;
+  }
+  #img2 {
+    height: 80vh;
+    width: 100vw;
+  }
+  #img3 {
+    height: 80vh;
+    width: 100vw;
+  }
+}
+
+@media (min-width: 768px) {
+  .ipadScreen {
+    display: block;
+    width: 100vw;
+  }
+}
+
+@media (min-width: 992px) {
+  .ipadScreen {
+    display: block;
+  }
+}
+
+@media (min-width: 1200px) {
+  .ipadScreen {
+    display: block;
+    width: 100vw;
+  }
+} */
+.section {
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+.bg-c-info {
+  background-color: #76bbfb;
+}
+.main-heading {
+  color: rgb(204, 18, 19);
+  font-size: 40px;
+}
+.contact-heading {
+  color: rgb(204, 18, 19);
+  font-size: 40px;
+}
+.contact-form .form-card {
+  margin-top: 20px;
+}
+.contact-form .form-body {
+  height: 100%;
+}
+p {
+  font-size: 14px;
+  color: #666666;
+}
+.underline {
+  height: 3px;
+  width: 170px;
+  /* background-color: rgb(204, 18, 19); */
+  background: linear-gradient(
+    90deg,
+    rgba(239, 0, 0, 0.7),
+    rgba(60, 0, 239, 0.7)
+  );
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.carousel-item {
+  height: 580px;
+}
+.image-container {
+  width: 100%;
+  height: 100%;
+  overflow: "hidden";
+}
+.footer a {
+  font-size: 15px;
+  width: 90px;
+  letter-spacing: 0.5px;
+  color: white;
+  font-weight: bold;
+}
+.footer a:hover {
+  color: gray;
+  transition: all 0.2s ease-in-out;
+}
+
+@media screen and (min-width: 350px) {
+  .carousel-item {
+    height: 200px;
+  }
+  .image-container {
+    width: 100%;
+    height: 100%;
+    overflow: "hidden";
+  }
+  .card {
+    height: 300px;
+  }
+  .card-body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+}
+@media screen and (min-width: 576px) {
+  .carousel-item {
+    height: 380px;
+  }
+  .image-container {
+    width: 100%;
+    height: 100%;
+    overflow: "hidden";
+  }
+  .card {
+    height: 450px;
+  }
+  .card-body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+}
+
+@media (min-width: 768px) {
+  .carousel-item {
+    height: 580px;
+  }
+  .image-container {
+    width: 100%;
+    height: 100%;
+    overflow: "hidden";
+  }
+}
+
+@media (min-width: 992px) {
+  .carousel-item {
+    height: 700px;
+  }
+  .image-container {
+    width: 100%;
+    height: 100%;
+    overflow: "hidden";
+  }
+}
+
+@media (min-width: 1200px) {
+  .carousel-item {
+    height: 900px;
+  }
+  .image-container {
+    width: 100%;
+    height: 100%;
+    overflow: "hidden";
+  }
+}
