@@ -12,7 +12,7 @@ const Home = () => {
           <div className="container">
             <div className="row">
               <div className="col .col-sm-12 col-md-12 .col-lg-8 text-center">
-                <h3 className="main-heading">Our Company</h3>
+                <h3 className="main-heading">Our Home</h3>
                 <div className="underline mx-auto"></div>
                 <p className="text-xl-start">
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et
